@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  color: #000000;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  
+ 
+  transition: background-image 1s ease-in-out;
+}
+
+.time {
+  font-size: 8rem;
+}
+
+.date {
+  font-size: 4rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.btn {
+  
+  
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  filter: grayscale(1);
+  background: rgba(255,255,255,.2);
+  border-radius: 1em;
+
+  
+}
+.btn:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  background: rgba(255,255,255,.2);
+}
+.btn:active,
+.btn:focus {
+  outline: 0;
+}
+.btn:active{
+  transform: scale(1.1)
+}
+
+.quote {
+  font: 1.2rem Georgia, serif;
+  margin: 0;
+  background: rgb(66, 132, 170, 0.5);
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1rem;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+.quote figcaption {
+  text-align: right;
+}
+
+.quote-btn {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  filter: grayscale(1);
+  background: rgba(255,255,255,.2);
+  border-radius: 1em;
+}
+
+.quote-btn:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  background: rgba(255,255,255,.2);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
